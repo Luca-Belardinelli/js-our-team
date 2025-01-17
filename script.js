@@ -43,3 +43,23 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+
+// varibiale per richiamare il contenitore scritto in html
+const team = document.getElementById('imgteam');
+
+// varibale per inserire tutti gli oggetti 
+let user = '';
+
+// ciclo per i singoli oggetti
+for (let i = 0; i <teamMembers.length; i++){
+
+  memberIesimo = teamMembers[i];
+
+  const {name, role, email, img} = memberIesimo;
+
+
+
+}
+
+
