@@ -58,8 +58,20 @@ for (let i = 0; i <teamMembers.length; i++){
 
   const {name, role, email, img} = memberIesimo;
 
-
+  user += `    
+  <div class="team-card">
+      <div class="card-image">
+          <img src="${img}" alt="${name}" />
+      </div>
+      <div class="card-text">
+          <h3>${name}</h3>
+          <p>${role}</p>
+          <p>${email}</p>
+      </div>
+  </div>
+ `
 
 }
 
-
+// ouput
+team.innerHTML = user;
