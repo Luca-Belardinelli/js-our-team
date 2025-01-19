@@ -66,7 +66,7 @@ for (let i = 0; i <teamMembers.length; i++){
       <div class="card-text">
           <h3>${name}</h3>
           <p>${role}</p>
-          <p>${email}</p>
+          <a href="#">${email}</a>
       </div>
   </div>
  `

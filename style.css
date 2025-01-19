@@ -5,18 +5,43 @@
 }
 
 
+
 .container{
     text-align: center;
     margin-top: 40px;
 }
 
 h2{
+    font-family: "Gochi Hand", serif;
     margin-bottom: 40px;
     color: #E43571;
     font-size: 40px;
 }
 
+/* main */
+
+
+#imgteam{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color:  white;
+    margin-top: 50px;
+}
 
 .team-card{
+    background-color: black;
+    display: flex;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 30px;
+}
 
+img{
+    width: 85%;
+    height: 100%;
+}
+
+p{
+    margin-top: 5px;
 }
